@@ -1,5 +1,5 @@
 {
-  "name": "demo-land",
+  "name": "demo-creative",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -14,8 +14,10 @@
     "@vue/cli-plugin-babel": "^3.0.5",
     "@vue/cli-plugin-eslint": "^3.0.5",
     "@vue/cli-service": "^3.0.5",
+    "tailwindcss": "^0.6.6",
     "vue-template-compiler": "^2.5.17"
   },
+  "author": "Abel Barrientos",
   "eslintConfig": {
     "root": true,
     "env": {
@@ -32,6 +34,7 @@
   },
   "postcss": {
     "plugins": {
+      "tailwindcss": "./tailwind.js",
       "autoprefixer": {}
     }
   },
